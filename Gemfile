@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'rack', '~> 1.5.2'
+gem 'sinatra', '~> 1.4.3'
+gem 'sinatra-reloader', '~> 1.0'
+gem 'heroku', '~> 2.40.1'
+gem 'haml', '~> 4.0.3'
+gem 'sass', '~> 3.2.10'

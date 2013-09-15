@@ -1,0 +1,4 @@
+%ul
+  - @solutions.map { |solution| solution[1] }.each do |name|
+    %li
+      %a{href: "/solutions/#{name}"} Solution #{name}
