@@ -1,3 +1,7 @@
-= @code
-%br
-= @result
+- @code.each do |l|
+  - indent = ''
+  - (l.length - l.strip.length-1).times{indent+="&nbsp;"}
+  %span #{indent + l.strip}
+  %br
+%hr
+%b #{@result}

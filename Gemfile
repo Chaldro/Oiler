@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 gem 'rack', '~> 1.5.2'
 gem 'sinatra', '~> 1.4.3'
 gem 'sinatra-reloader', '~> 1.0'
